@@ -1,0 +1,15 @@
+@font-face {
+    font-family: Norse;
+    src: url(fonts/Norse-Bold.otf);
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.image img{
+    width: 500px;
+    height: 100vh;
+    object-fit: cover;
+}
