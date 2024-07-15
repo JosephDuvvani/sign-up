@@ -6,10 +6,76 @@
 body{
     margin: 0;
     padding: 0;
+    display: flex;
+    font-size: 16px;
+    font-family: "Helvetica", "Arial", sans-serif;
+    line-height: 1.3;
+    box-sizing: border-box;
 }
 
 .image img{
     width: 500px;
     height: 100vh;
     object-fit: cover;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.about-text,
+.sign-up-form,
+.create-account{
+    padding: 30px 40px;
+}
+
+.about-text{
+    background-color: #f7f7f7;
+    flex: auto;
+    align-content: end;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.create-account{
+    background-color: #f7f7f7;
+    flex: auto;
+}
+
+.about-text div {
+    padding-bottom: 30px;
+}
+
+
+.sign-up-form .title{
+    padding-bottom: 20px;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.create-account .sign-up-btn{
+    padding-bottom: 20px;
+}
+
+.create-account .sign-up-btn button{
+    font-size: 18px;
+    padding: 10px 40px;
+}
+
+.input-field div{
+    display: flex;
+    flex-direction: column;
+}
+
+.input-field div input{
+    width: 250px;
+}
+
+.input-field{
+    display: flex;  
+    max-width: 600px;
+    flex-wrap: wrap;
+    gap: 15px 50px;
 }
