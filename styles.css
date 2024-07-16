@@ -13,8 +13,12 @@ body{
     box-sizing: border-box;
 }
 
-.image img{
-    width: 500px;
+.logo-field{
+    background: no-repeat center/100% url(images/green-leaf.jpg);
+    background-size:cover;
+    width:100%;
+    max-width: 500px;
+
     height: 100vh;
     object-fit: cover;
 }
@@ -28,7 +32,8 @@ body{
 .about-text,
 .sign-up-form,
 .create-account{
-    padding: 30px 40px;
+    padding: 30px 15px 30px 40px;
+    min-width: 300px;
 }
 
 .about-text{
@@ -71,6 +76,7 @@ body{
 
 .input-field div input{
     width: 250px;
+    font-size: 18px;
 }
 
 .input-field{
