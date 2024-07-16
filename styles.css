@@ -88,6 +88,11 @@ body{
 .create-account .sign-up-btn button{
     font-size: 18px;
     padding: 10px 40px;
+    background-color: #596D48;
+    border-style: none;
+    border-radius: 5px;
+    color: #fff;
+    box-shadow: 2px 3px 6px #c0c0c0;
 }
 
 .input-field div{
@@ -97,7 +102,11 @@ body{
 
 .input-field div input{
     width: 250px;
-    font-size: 18px;
+    font-size: 16px;
+    padding: 5px;
+    border: 1px solid #E5E7EB;
+    border-radius: 5px;
+    outline: none;
 }
 
 .input-field{
@@ -105,4 +114,30 @@ body{
     max-width: 600px;
     flex-wrap: wrap;
     gap: 15px 50px;
+}
+
+.input-field div label{
+    font-size: 12px;
+    font-weight: 600;
+    color: #555;
+}
+
+.sign-up-form{
+    background-color: #fff;
+    box-shadow: 2px 3px 6px #c0c0c0;
+    position: relative;
+}
+
+.input-field div input:focus{
+    border: 1px solid #0000ff;
+    box-shadow: 2px 3px 6px #c0c0c0;
+}
+
+.create-account div:not(.sign-up-btn){
+    font-weight: 600;
+}
+
+a{
+    text-decoration: none;
+    color: #596D48;
 }
