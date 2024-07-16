@@ -11,6 +11,7 @@ body{
     font-family: "Helvetica", "Arial", sans-serif;
     line-height: 1.3;
     box-sizing: border-box;
+    background-color: #f7f7f7;
 }
 
 .logo-field{
@@ -93,6 +94,7 @@ body{
     border-radius: 5px;
     color: #fff;
     box-shadow: 2px 3px 6px #c0c0c0;
+    cursor: pointer;
 }
 
 .input-field div{
@@ -140,4 +142,13 @@ body{
 a{
     text-decoration: none;
     color: #596D48;
+}
+
+.input-field input:invalid{
+    border: 1px solid #ff0000;
+    color: #ff0000;
+}
+
+.create-account .sign-up-btn button:hover{
+    background-color: hsl(92, 20%, 30%);
 }
