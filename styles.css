@@ -18,9 +18,30 @@ body{
     background-size:cover;
     width:100%;
     max-width: 500px;
-
+    min-width: 160px;
     height: 100vh;
     object-fit: cover;
+}
+.logo{
+    font-family: Norse;
+    font-size: 100px;
+    color: #fff;
+    background-color: rgb(0, 0, 0, 0.6);
+    padding: 10px;
+    position: relative;
+    top: 200px;
+    text-align: center;
+}
+
+.logo div img{
+    height: 130px;
+}
+
+.logo div{   
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    word-wrap: break-word;
 }
 
 .content{
