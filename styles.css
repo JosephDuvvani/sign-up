@@ -20,7 +20,7 @@ body{
     width:100%;
     max-width: 500px;
     min-width: 160px;
-    height: 100vh;
+    height: auto;
     object-fit: cover;
 }
 .logo{
@@ -49,6 +49,7 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    min-height: 100vh;
 }
 
 .about-text,
